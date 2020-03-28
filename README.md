@@ -8,6 +8,9 @@ Some boring TTS shit
 # Install
 - Install python3
 - Do `pip install -r requirements.txt`
+- In gTTS-csgo.py edit
+  - `LOGFILE = ""` to your csgo logfile
+  - `COMMANDS = ".say"` to your liking
 - Run `python gTTS-csgo.py`
 
 # Usage
