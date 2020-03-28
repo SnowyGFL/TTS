@@ -1,5 +1,5 @@
 # TTS-CSGO
-Some boring TTS shit
+Some boring TTS shit for CS:GO
 
 # Requirements
 - Python3.8
