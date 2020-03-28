@@ -9,7 +9,7 @@ Some boring TTS shit
 - Install python3
 - Do `pip install -r requirements.txt`
 - In gTTS-csgo.py edit
-  - `LOGFILE = ""` to your csgo logfile
+  - `LOGFILE = ""` to your csgo logfile as stated in con_logfile.
   - `COMMANDS = ".say"` to your liking
 - Run `python gTTS-csgo.py`
 
