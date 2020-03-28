@@ -6,10 +6,11 @@ import tempfile
 
 LANGUAGES = [language for language in gtts.lang.tts_langs()]
 COMMAND = ".say"
+LOGFILE = "" # EX: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\gtts.log when con_logfile "gtts.log"
 print(LANGUAGES)
 
-# open log file. EX: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\gtts.log when con_logfile "gtts.log"
-FO = open('', 'r', encoding='utf8')
+# open log file.
+FO = open(LOGFILE, 'r', encoding='utf8')
 FO.seek(0, 2)
 print("reading file")
 
